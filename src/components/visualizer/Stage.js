@@ -21,6 +21,7 @@ const StepButton = styled.button`
 
 const Stage = ({grid, setGrid}) => {
   const [delay, setDelay] = useState(10);
+  const [movingIndex, setMovingIndex] = useState(null);
   
   const doStep = () => {
     console.log('render');
@@ -31,6 +32,7 @@ const Stage = ({grid, setGrid}) => {
           grid[j] = grid[j + 1];
           grid[j + 1] = temp;
           setGrid([...grid]);
+          setMovingIndex(j);
           return;
         }
       }
@@ -43,7 +45,7 @@ const Stage = ({grid, setGrid}) => {
         
   return (
     <Container>
-      <Grid grid={grid} />
+      <Grid grid={grid} movingIndex={movingIndex} />
     </Container>
   )
 }

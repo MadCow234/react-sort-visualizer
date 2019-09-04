@@ -6,13 +6,15 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: ${props => props.height + 'em'};
-  background-color: red;
-  border: 1px solid black;
+  background-color: ${props => props.index === props.movingIndex ? "darkgreen" : "darkred"};
   width: 0.5em;
 `;
 
-const Column = ({height}) => (
-  <Container height={height} />
-)
+const Column = ({height, index, movingIndex}) => {
+  console.log(index + " " + movingIndex);
+  return (
+    <Container height={height} index={index} movingIndex={movingIndex} />
+  )
+}
 
 export default Column;

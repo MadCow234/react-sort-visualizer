@@ -8,16 +8,16 @@ const Container = styled.div`
   box-sizing: border-box;
   display: inline-flex;
   flex-direction: row;
-  background-color: #eee;
+  background-color: rgb(191, 191, 191);
   transform: rotate(180deg);
   height: auto;
   width: auto;
   border: 1px solid black;
 `;
 
-const Grid = ({grid}) => (
+const Grid = ({grid, movingIndex}) => (
   <Container>
-    {grid.map((value, index) => <Column key={index} height={value} />)}
+    {grid.map((value, index) => <Column key={index} height={value} index={index} movingIndex={movingIndex} />)}
   </Container>
 )
 
