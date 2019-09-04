@@ -20,7 +20,7 @@ const StepButton = styled.button`
 `;
 
 const Stage = ({grid, setGrid}) => {
-  const [delay, setDelay] = useState(50);
+  const [delay, setDelay] = useState(10);
   const [movingIndex, setMovingIndex] = useState(null);
   
   const doStep = () => {
