@@ -12,7 +12,6 @@ const Container = styled.div`
 `;
 
 const Column = ({height, index, movingIndex}) => {
-  console.log(index + " " + movingIndex);
   return (
     <Container height={height} index={index} movingIndex={movingIndex} />
   )

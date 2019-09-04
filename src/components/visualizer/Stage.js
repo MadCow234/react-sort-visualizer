@@ -20,11 +20,10 @@ const StepButton = styled.button`
 `;
 
 const Stage = ({grid, setGrid}) => {
-  const [delay, setDelay] = useState(10);
+  const [delay, setDelay] = useState(1);
   const [movingIndex, setMovingIndex] = useState(null);
   
   const doStep = () => {
-    console.log('render');
     for (let i = 0; i < grid.length - 1; i++) {
       for (let j = 0; j < grid.length - i - 1; j++) {
         if (grid[j] > grid[j + 1]) {
@@ -37,7 +36,7 @@ const Stage = ({grid, setGrid}) => {
         }
       }
     }
-    console.log('render');
+    setMovingIndex(-1);
     setDelay(null);
   }
 
