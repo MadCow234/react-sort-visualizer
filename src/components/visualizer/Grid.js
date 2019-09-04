@@ -13,7 +13,6 @@ const Container = styled.div`
   transform: rotateX(180deg);
   height: auto;
   width: auto;
-  border: 1px solid black;
 `;
 
 const Grid = ({grid, movingIndex}) => (

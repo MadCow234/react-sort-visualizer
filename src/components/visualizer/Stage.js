@@ -8,6 +8,8 @@ import { useInterval } from '../../hooks/useInterval';
 
 const Container = styled.div`
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
   height: auto;
   width: auto;
   margin: auto;
@@ -20,7 +22,7 @@ const StepButton = styled.button`
 `;
 
 const Stage = ({grid, setGrid}) => {
-  const [delay, setDelay] = useState(10);
+  const [delay, setDelay] = useState(1);
   const [movingIndex, setMovingIndex] = useState(null);
   
   const doStep = () => {
