@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Stage from './components/visualizer/Stage';
 
 const App = () => {
-  let array = Array.from(new Array(Math.floor((Math.random() * 100) + 40)), () => Math.floor((Math.random() * 40) + 1));
+  let array = Array.from(new Array(Math.floor((Math.random() * 100) + 40)), () => Math.floor((Math.random() * 500) + 1));
 
   const [grid, setGrid] = useState(array);
 

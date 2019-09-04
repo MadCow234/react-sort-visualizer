@@ -5,10 +5,10 @@ const Container = styled.div`
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: ${props => props.height + 'em'};
+  height: ${props => props.height + 'px'};
   background-color: ${props => props.index === props.movingIndex ? "darkgreen" : "cyan"};
   border: 1px solid black;
-  width: 0.5em;
+  width: 6px;
 `;
 
 const Column = ({height, index, movingIndex}) => {
