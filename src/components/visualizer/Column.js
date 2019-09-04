@@ -6,7 +6,8 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: ${props => props.height + 'em'};
-  background-color: ${props => props.index === props.movingIndex ? "darkgreen" : "darkred"};
+  background-color: ${props => props.index === props.movingIndex ? "darkgreen" : "cyan"};
+  border: 1px solid black;
   width: 0.5em;
 `;
 
