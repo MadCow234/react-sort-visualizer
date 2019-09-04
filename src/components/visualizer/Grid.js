@@ -9,7 +9,8 @@ const Container = styled.div`
   display: inline-flex;
   flex-direction: row;
   background-color: rgb(191, 191, 191);
-  transform: rotate(180deg);
+  transform: rotateY(180deg);
+  transform: rotateX(180deg);
   height: auto;
   width: auto;
   border: 1px solid black;
