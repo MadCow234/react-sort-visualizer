@@ -11,12 +11,12 @@ const StyledNavigation = styled.div`
 const StyledButton = styled.button`
   background: transparent;
   border-radius: 3px;
-  border: 2px solid palevioletred;
+  border: 2px solid cyan;
   margin: 1em 1em;
   padding: 0.25em 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  color: palevioletred;
+  color: cyan;
   outline: none;
   cursor: pointer;
 `;
