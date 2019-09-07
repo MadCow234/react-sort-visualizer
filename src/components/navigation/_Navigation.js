@@ -9,7 +9,7 @@ const StyledNavigation = styled.div`
 `;
 
 const StyledButton = styled.button`
-  background: transparent;
+  background: rgb(191, 191, 191);
   border-radius: 3px;
   border: 2px solid cyan;
   margin: 1em 1em;
