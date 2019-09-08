@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-sort-visualizer/static/css/main.34de6062.chunk.css",
-    "main.js": "/react-sort-visualizer/static/js/main.f35f8159.chunk.js",
-    "main.js.map": "/react-sort-visualizer/static/js/main.f35f8159.chunk.js.map",
+    "main.js": "/react-sort-visualizer/static/js/main.926f9c43.chunk.js",
+    "main.js.map": "/react-sort-visualizer/static/js/main.926f9c43.chunk.js.map",
     "runtime~main.js": "/react-sort-visualizer/static/js/runtime~main.4b285a7e.js",
     "runtime~main.js.map": "/react-sort-visualizer/static/js/runtime~main.4b285a7e.js.map",
-    "static/js/2.c99875de.chunk.js": "/react-sort-visualizer/static/js/2.c99875de.chunk.js",
-    "static/js/2.c99875de.chunk.js.map": "/react-sort-visualizer/static/js/2.c99875de.chunk.js.map",
+    "static/js/2.66e9fb8d.chunk.js": "/react-sort-visualizer/static/js/2.66e9fb8d.chunk.js",
+    "static/js/2.66e9fb8d.chunk.js.map": "/react-sort-visualizer/static/js/2.66e9fb8d.chunk.js.map",
     "index.html": "/react-sort-visualizer/index.html",
-    "precache-manifest.68722c8686969772f935cafb2343b95c.js": "/react-sort-visualizer/precache-manifest.68722c8686969772f935cafb2343b95c.js",
+    "precache-manifest.181b85c45478abad7dc3d3671b883ea4.js": "/react-sort-visualizer/precache-manifest.181b85c45478abad7dc3d3671b883ea4.js",
     "service-worker.js": "/react-sort-visualizer/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/react-sort-visualizer/static/css/main.34de6062.chunk.css.map"
   }
