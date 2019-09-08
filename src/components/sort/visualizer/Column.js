@@ -9,7 +9,9 @@ const StyledColumn = styled.div`
 `;
 
 const Column = ({height, index, color}) => (
-  <StyledColumn height={height} index={index} color={color}>{console.log('column re-render')}</StyledColumn>
+  <StyledColumn height={height} index={index} color={color}>
+    {/* {console.log('column re-render')} */}
+  </StyledColumn>
 )
 
 export default React.memo(Column);

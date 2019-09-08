@@ -5,7 +5,7 @@ const StyledNavigation = styled.div`
   box-sizing: border-box;
   position: absolute;
   width: 100%;
-  height: 4em;
+  height: auto;
 `;
 
 const StyledButton = styled.button`
@@ -14,18 +14,23 @@ const StyledButton = styled.button`
   border: 2px solid cyan;
   margin: 1em 1em;
   padding: 0.25em 1em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   font-size: 18px;
+  text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
   color: cyan;
   outline: none;
   cursor: pointer;
 `;
 
-const Navigation = ({startSort, stepSort}) => (
+const Navigation = ({startSort, stepSort, stopSort}) => {
+  // console.log("navigation re-render");
+  return (
     <StyledNavigation>
       <StyledButton onClick={startSort} >Start</StyledButton>
       <StyledButton onClick={stepSort} >Step</StyledButton>
+      <StyledButton onClick={stopSort} >Stop</StyledButton>
     </StyledNavigation>
-)
+  )
+}
 
 export default Navigation;
